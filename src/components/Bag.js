@@ -1,11 +1,11 @@
-const style={
+const bag={
     padding: "20px",
-    backgroundColor: "blue",
-    margin: "20px 0"
+    background: "blue",
+    margin: "20px 30px"
 }
 
 function Bag(props){
- return <h1>{props.children}</h1>
+ return <h1 style={bag}>{props.children}</h1>
 }
 
 
