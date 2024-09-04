@@ -1,10 +1,15 @@
-import HookCounter from './components/HookCounter';
+// import PrevCountHook from './components/PrevHookCounter';
+import HookCounterObj from './components/HookCounterObj';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <HookCounter />
+      {/* <HookCounter /> */}
+
+      {/* <PrevCountHook /> */}
+
+    <HookCounterObj />
     </div>
   );
 }
